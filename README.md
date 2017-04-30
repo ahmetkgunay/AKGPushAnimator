@@ -49,7 +49,7 @@ class FirstViewController: BaseViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSecond" {
-        navigationController?.delegate = self
+            navigationController?.delegate = self
     }
 }
 
