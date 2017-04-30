@@ -76,3 +76,12 @@ struct Pop {
 }
 
 ```
+
+## Author
+
+Ahmet Kazım Günay, ahmetkgunay@gmail.com
+
+## License
+
+AKGPushAnimator is available under the MIT license. See the LICENSE file for more info.
+
