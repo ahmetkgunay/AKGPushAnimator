@@ -9,8 +9,60 @@
 import UIKit
 
 class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
-
+    
     var isReverseTransition = false
+    
+    // MARK: Variables with Getters
+    
+    var animatorScreenWidth : CGFloat {
+        get {
+            return UIScreen.main.bounds.width
+        }
+    }
+    
+    var animatorScreenHeight : CGFloat {
+        get {
+            return UIScreen.main.bounds.height
+        }
+    }
+    
+    var toViewPushedFrame : CGRect {
+        get {
+            return CGRect(x      : 0,
+                          y      : 0,
+                          width  : self.animatorScreenWidth,
+                          height : self.animatorScreenHeight)
+        }
+    }
+    
+    var fromViewPushedFrame : CGRect {
+        get {
+            return CGRect(x      : AKGPushAnimatorConstants.Common.dismissPosition,
+                          y      : 0,
+                          width  : self.animatorScreenWidth,
+                          height : self.animatorScreenHeight)
+        }
+    }
+    
+    var fromViewPopedFrame : CGRect {
+        get {
+            return CGRect(x      : self.animatorScreenWidth,
+                          y      : 0,
+                          width  : self.animatorScreenWidth,
+                          height : self.animatorScreenHeight)
+        }
+    }
+    
+    var toViewPopedFrame : CGRect {
+        get {
+            return CGRect(x      : 0,
+                          y      : 0,
+                          width  : self.animatorScreenWidth,
+                          height : self.animatorScreenHeight)
+        }
+    }
+    
+    // MARK: UIViewControllerAnimatedTransitioning
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return AKGPushAnimatorConstants.Common.duration
@@ -24,17 +76,15 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         let toView = toVC.view!
         let fromView = fromVC.view!
         
-        let screenWidth = UIScreen.main.bounds.width
-        
         if !isReverseTransition {
             
             containerView.addSubview(fromView)
             containerView.addSubview(toView)
             
-            toView.frame = CGRect(x      : screenWidth,
+            toView.frame = CGRect(x      : animatorScreenWidth,
                                   y      : toView.frame.origin.y,
-                                  width  : toView.frame.width,
-                                  height : toView.frame.height)
+                                  width  : animatorScreenWidth,
+                                  height : animatorScreenHeight)
             
             animate(withTransitionContext: transitionContext,
                     toView: toView,
@@ -44,15 +94,8 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
                     options: AKGPushAnimatorConstants.Push.animateOption,
                     animations: {
                         
-                        fromView.frame = CGRect(x      : AKGPushAnimatorConstants.Common.dismissPosition,
-                                                y      : fromView.frame.origin.y,
-                                                width  : fromView.frame.width,
-                                                height : fromView.frame.height)
-                        
-                        toView.frame   = CGRect(x      : 0,
-                                                y      : 0,
-                                                width  : toView.frame.size.width,
-                                                height : toView.frame.size.height)
+                        fromView.frame = self.fromViewPushedFrame
+                        toView.frame   = self.toViewPushedFrame
             })
         }
         else {
@@ -61,8 +104,8 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             
             toView.frame = CGRect(x      : AKGPushAnimatorConstants.Common.dismissPosition,
                                   y      : toView.frame.origin.y,
-                                  width  : toView.frame.width,
-                                  height : toView.frame.height)
+                                  width  : animatorScreenWidth,
+                                  height : animatorScreenHeight)
             
             animate(withTransitionContext: transitionContext,
                     toView: toView,
@@ -72,15 +115,8 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
                     options: AKGPushAnimatorConstants.Pop.animateOption,
                     animations: {
                         
-                        fromView.frame = CGRect(x      : screenWidth,
-                                                y      : fromView.frame.origin.y,
-                                                width  : fromView.frame.width,
-                                                height : fromView.frame.height)
-                        
-                        toView.frame   = CGRect(x      : 0,
-                                                y      : 0,
-                                                width  : toView.frame.size.width,
-                                                height : toView.frame.size.height)
+                        fromView.frame = self.fromViewPopedFrame
+                        toView.frame   = self.toViewPopedFrame
             })
         }
     }
