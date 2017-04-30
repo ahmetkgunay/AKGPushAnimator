@@ -1,6 +1,8 @@
 # AKGPushAnimator
 Easily Push and Pop viewcontroller with segue like Instagram App with Interaction written in pure Swift 3
 
+![Anim](https://github.com/ahmetkgunay/AKGPushAnimator/blob/master/AKGPushAnimator.gif)
+
 
 ## Usage
 
