@@ -71,10 +71,11 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         let containerView = transitionContext.containerView
-        let toVC = transitionContext.viewController(forKey: .to)!
-        let fromVC = transitionContext.viewController(forKey: .from)!
-        let toView = toVC.view!
-        let fromView = fromVC.view!
+        
+        guard let toVC = transitionContext.viewController(forKey: .to),
+            let fromVC = transitionContext.viewController(forKey: .from),
+            let toView = toVC.view,
+            let fromView = fromVC.view else { return }
         
         if !isReverseTransition {
             
@@ -123,8 +124,8 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
 }
 
 private func animate(withTransitionContext transitionContext:UIViewControllerContextTransitioning,
-                     toView: UIView!,
-                     fromView: UIView!,
+                     toView: UIView,
+                     fromView: UIView,
                      duration: TimeInterval,
                      delay: TimeInterval,
                      options: UIViewAnimationOptions = [],

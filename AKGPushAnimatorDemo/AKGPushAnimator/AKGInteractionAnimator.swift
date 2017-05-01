@@ -26,7 +26,7 @@ class AKGInteractionAnimator: UIPercentDrivenInteractiveTransition {
     }
     
     func handlePanGesture(_ gestureRecognizer: UIPanGestureRecognizer) {
-        let viewTranslation = gestureRecognizer.translation(in: gestureRecognizer.view!.superview!)
+        let viewTranslation = gestureRecognizer.translation(in: gestureRecognizer.view?.superview)
         let velocity : CGPoint = gestureRecognizer.velocity(in: gestureRecognizer.view)
         
         switch gestureRecognizer.state {
