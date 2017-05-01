@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/ahmetkgunay/AKGPushAnimator"
   s.license          = 'MIT'
   s.author           = { "Ahmet Kazım Günay" => "ahmetkgunay@gmail.com" }
-  s.source           = { :git => "https://github.com/ahmetkgunay/AKGPushAnimator", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ahmetkgunay/AKGPushAnimator.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ahmtgny'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
