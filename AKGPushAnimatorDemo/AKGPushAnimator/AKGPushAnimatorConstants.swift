@@ -12,7 +12,7 @@ struct AKGPushAnimatorConstants {
     
     struct Common {
         static let duration = 0.27;
-        static let dismissPosition : CGFloat = -50;
+        static let dismissPosition : CGFloat = -100;
     }
     
     struct Push {
