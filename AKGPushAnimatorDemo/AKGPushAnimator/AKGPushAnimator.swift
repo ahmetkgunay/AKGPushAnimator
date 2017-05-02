@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+public class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     
     var isReverseTransition = false
     
@@ -64,11 +64,11 @@ class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     
     // MARK: UIViewControllerAnimatedTransitioning
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return AKGPushAnimatorConstants.Common.duration
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         let containerView = transitionContext.containerView
         
