@@ -78,6 +78,14 @@ struct Pop {
 }
 
 ```
+## Installation
+
+AKGPushAnimator is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'AKGPushAnimator', '~> 0.2.0'
+```
 
 ## Author
 
