@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AKGPushAnimator"
-  s.version          = '0.2.0'
+  s.version          = '1.0.0'
   s.summary          = "Easy to use, Interactive Push Animator like Instagram app"
   s.description      = <<-DESC
                        Easily Push and Pop ViewController like Instagram App with Interaction written in pure Swift 3

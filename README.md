@@ -84,7 +84,7 @@ AKGPushAnimator is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AKGPushAnimator', '~> 0.2.0'
+pod 'AKGPushAnimator', '~> 1.0.0'
 ```
 
 ## Author
