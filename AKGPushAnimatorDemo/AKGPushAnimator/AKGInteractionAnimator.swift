@@ -12,9 +12,9 @@ public class AKGInteractionAnimator: UIPercentDrivenInteractiveTransition {
 
     var navigationController: UINavigationController!
     var shouldCompleteTransition = false
-    var transitionInProgress = false
+    public var transitionInProgress = false
     
-    func attachToViewController(_ viewController: UIViewController) {
+    public func attachToViewController(_ viewController: UIViewController) {
         navigationController = viewController.navigationController
         addGestureRecognizer(viewController.view)
     }

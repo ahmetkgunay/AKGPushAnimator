@@ -10,7 +10,7 @@ import UIKit
 
 public class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     
-    var isReverseTransition = false
+    public var isReverseTransition = false
     
     // MARK: Variables with Getters
     
