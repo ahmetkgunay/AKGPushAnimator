@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AKGInteractionAnimator: UIPercentDrivenInteractiveTransition {
+public class AKGInteractionAnimator: UIPercentDrivenInteractiveTransition {
 
     var navigationController: UINavigationController!
     var shouldCompleteTransition = false
