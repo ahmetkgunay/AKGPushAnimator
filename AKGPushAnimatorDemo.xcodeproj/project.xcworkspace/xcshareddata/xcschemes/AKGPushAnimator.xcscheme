@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C31058001EBF06B300C18F16"
                BuildableName = "AKGPushAnimator.framework"
                BlueprintName = "AKGPushAnimator"
-               ReferencedContainer = "container:AKGPushAnimatorDemo.xcodeproj">
+               ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "C31058001EBF06B300C18F16"
             BuildableName = "AKGPushAnimator.framework"
             BlueprintName = "AKGPushAnimator"
-            ReferencedContainer = "container:AKGPushAnimatorDemo.xcodeproj">
+            ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "C31058001EBF06B300C18F16"
             BuildableName = "AKGPushAnimator.framework"
             BlueprintName = "AKGPushAnimator"
-            ReferencedContainer = "container:AKGPushAnimatorDemo.xcodeproj">
+            ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
