@@ -1,15 +1,15 @@
 //
-//  AKGPushAnimatorDemoTests.swift
-//  AKGPushAnimatorDemoTests
+//  AKGPushAnimatorTests.swift
+//  AKGPushAnimatorTests
 //
-//  Created by AHMET KAZIM GUNAY on 30/04/2017.
+//  Created by AHMET KAZIM GUNAY on 07/05/2017.
 //  Copyright © 2017 AHMET KAZIM GUNAY. All rights reserved.
 //
 
 import XCTest
-@testable import AKGPushAnimatorDemo
+@testable import AKGPushAnimator
 
-class AKGPushAnimatorDemoTests: XCTestCase {
+class AKGPushAnimatorTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

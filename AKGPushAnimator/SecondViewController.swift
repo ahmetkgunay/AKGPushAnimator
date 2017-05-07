@@ -1,6 +1,6 @@
 //
-//  FirstViewController.swift
-//  AKGPushAnimatorDemo
+//  SecondViewController.swift
+//  AKGPushAnimator
 //
 //  Created by AHMET KAZIM GUNAY on 30/04/2017.
 //  Copyright © 2017 AHMET KAZIM GUNAY. All rights reserved.
@@ -8,19 +8,14 @@
 
 import UIKit
 
-class FirstViewController: BaseViewController {
+class SecondViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showSecond" {
-            navigationController?.delegate = self
-        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
 }

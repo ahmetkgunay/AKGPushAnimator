@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AKGPushAnimatorDemo
+//  AKGPushAnimator
 //
 //  Created by AHMET KAZIM GUNAY on 30/04/2017.
 //  Copyright © 2017 AHMET KAZIM GUNAY. All rights reserved.

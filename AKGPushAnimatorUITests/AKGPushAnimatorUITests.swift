@@ -1,14 +1,14 @@
 //
-//  AKGPushAnimatorDemoUITests.swift
-//  AKGPushAnimatorDemoUITests
+//  AKGPushAnimatorUITests.swift
+//  AKGPushAnimatorUITests
 //
-//  Created by AHMET KAZIM GUNAY on 30/04/2017.
+//  Created by AHMET KAZIM GUNAY on 07/05/2017.
 //  Copyright © 2017 AHMET KAZIM GUNAY. All rights reserved.
 //
 
 import XCTest
 
-class AKGPushAnimatorDemoUITests: XCTestCase {
+class AKGPushAnimatorUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
@@ -28,13 +28,9 @@ class AKGPushAnimatorDemoUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testPushViewControllerWithAnimator() {
-        // given
-        let app = XCUIApplication()
-        app.otherElements.containing(.navigationBar, identifier:"First").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .button).element.tap()
-        
-        let element = app.otherElements.containing(.navigationBar, identifier:"Second").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
-        element.swipeRight()
+    func testExample() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
 }

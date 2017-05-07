@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C31058001EBF06B300C18F16"
-               BuildableName = "AKGPushAnimator.framework"
-               BlueprintName = "AKGPushAnimator"
-               ReferencedContainer = "container:">
+               BlueprintIdentifier = "C31058621EBF3BB500C18F16"
+               BuildableName = "AKGPushAnimatorKit.framework"
+               BlueprintName = "AKGPushAnimatorKit"
+               ReferencedContainer = "container:AKGPushAnimator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C31058001EBF06B300C18F16"
-            BuildableName = "AKGPushAnimator.framework"
-            BlueprintName = "AKGPushAnimator"
-            ReferencedContainer = "container:">
+            BlueprintIdentifier = "C31058621EBF3BB500C18F16"
+            BuildableName = "AKGPushAnimatorKit.framework"
+            BlueprintName = "AKGPushAnimatorKit"
+            ReferencedContainer = "container:AKGPushAnimator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C31058001EBF06B300C18F16"
-            BuildableName = "AKGPushAnimator.framework"
-            BlueprintName = "AKGPushAnimator"
-            ReferencedContainer = "container:">
+            BlueprintIdentifier = "C31058621EBF3BB500C18F16"
+            BuildableName = "AKGPushAnimatorKit.framework"
+            BlueprintName = "AKGPushAnimatorKit"
+            ReferencedContainer = "container:AKGPushAnimator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
