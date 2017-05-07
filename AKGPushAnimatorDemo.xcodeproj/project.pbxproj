@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C31057EE1EBF03B600C18F16 /* AKGPushAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = C31057EC1EBF03B600C18F16 /* AKGPushAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31057F11EBF03B600C18F16 /* AKGPushAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31057EA1EBF03B600C18F16 /* AKGPushAnimator.framework */; };
+		C31057F31EBF03B600C18F16 /* AKGPushAnimator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C31057EA1EBF03B600C18F16 /* AKGPushAnimator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C31057F71EBF03BE00C18F16 /* AKGPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDEE0C1EB66FC70032C8E5 /* AKGPushAnimator.swift */; };
+		C31057F81EBF03BE00C18F16 /* AKGInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDEE0B1EB66FC70032C8E5 /* AKGInteractionAnimator.swift */; };
+		C31057F91EBF03BE00C18F16 /* AKGPushAnimatorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDEE0D1EB66FC70032C8E5 /* AKGPushAnimatorConstants.swift */; };
 		C3FDEDC91EB668610032C8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FDEDC81EB668610032C8E5 /* AppDelegate.swift */; };
 		C3FDEDCE1EB668610032C8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FDEDCC1EB668610032C8E5 /* Main.storyboard */; };
 		C3FDEDD01EB668610032C8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FDEDCF1EB668610032C8E5 /* Assets.xcassets */; };
@@ -22,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C31057EF1EBF03B600C18F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FDEDBD1EB668610032C8E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31057E91EBF03B600C18F16;
+			remoteInfo = AKGPushAnimator;
+		};
 		C3FDEDDA1EB668610032C8E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3FDEDBD1EB668610032C8E5 /* Project object */;
@@ -38,7 +51,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C31057F21EBF03B600C18F16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C31057F31EBF03B600C18F16 /* AKGPushAnimator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C31057EA1EBF03B600C18F16 /* AKGPushAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKGPushAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31057EC1EBF03B600C18F16 /* AKGPushAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKGPushAnimator.h; sourceTree = "<group>"; };
+		C31057ED1EBF03B600C18F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3FDEDC51EB668610032C8E5 /* AKGPushAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKGPushAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FDEDC81EB668610032C8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FDEDCD1EB668610032C8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,10 +90,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C31057E61EBF03B600C18F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FDEDC21EB668610032C8E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31057F11EBF03B600C18F16 /* AKGPushAnimator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +122,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31057EB1EBF03B600C18F16 /* AKGPushAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				C31057EC1EBF03B600C18F16 /* AKGPushAnimator.h */,
+				C31057ED1EBF03B600C18F16 /* Info.plist */,
+			);
+			path = AKGPushAnimator;
+			sourceTree = "<group>";
+		};
 		C3FDEDBC1EB668610032C8E5 = {
 			isa = PBXGroup;
 			children = (
 				C3FDEDC71EB668610032C8E5 /* AKGPushAnimatorDemo */,
 				C3FDEDDC1EB668610032C8E5 /* AKGPushAnimatorDemoTests */,
 				C3FDEDE71EB668610032C8E5 /* AKGPushAnimatorDemoUITests */,
+				C31057EB1EBF03B600C18F16 /* AKGPushAnimator */,
 				C3FDEDC61EB668610032C8E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +148,7 @@
 				C3FDEDC51EB668610032C8E5 /* AKGPushAnimatorDemo.app */,
 				C3FDEDD91EB668610032C8E5 /* AKGPushAnimatorDemoTests.xctest */,
 				C3FDEDE41EB668610032C8E5 /* AKGPushAnimatorDemoUITests.xctest */,
+				C31057EA1EBF03B600C18F16 /* AKGPushAnimator.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +199,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C31057E71EBF03B600C18F16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31057EE1EBF03B600C18F16 /* AKGPushAnimator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		C31057E91EBF03B600C18F16 /* AKGPushAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31057F61EBF03B600C18F16 /* Build configuration list for PBXNativeTarget "AKGPushAnimator" */;
+			buildPhases = (
+				C31057E51EBF03B600C18F16 /* Sources */,
+				C31057E61EBF03B600C18F16 /* Frameworks */,
+				C31057E71EBF03B600C18F16 /* Headers */,
+				C31057E81EBF03B600C18F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKGPushAnimator;
+			productName = AKGPushAnimator;
+			productReference = C31057EA1EBF03B600C18F16 /* AKGPushAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C3FDEDC41EB668610032C8E5 /* AKGPushAnimatorDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FDEDED1EB668610032C8E5 /* Build configuration list for PBXNativeTarget "AKGPushAnimatorDemo" */;
@@ -158,10 +236,12 @@
 				C3FDEDC11EB668610032C8E5 /* Sources */,
 				C3FDEDC21EB668610032C8E5 /* Frameworks */,
 				C3FDEDC31EB668610032C8E5 /* Resources */,
+				C31057F21EBF03B600C18F16 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C31057F01EBF03B600C18F16 /* PBXTargetDependency */,
 			);
 			name = AKGPushAnimatorDemo;
 			productName = AKGPushAnimatorDemo;
@@ -214,6 +294,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "AHMET KAZIM GUNAY";
 				TargetAttributes = {
+					C31057E91EBF03B600C18F16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KUKEJWK3NR;
+						ProvisioningStyle = Automatic;
+					};
 					C3FDEDC41EB668610032C8E5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KUKEJWK3NR;
@@ -249,11 +334,19 @@
 				C3FDEDC41EB668610032C8E5 /* AKGPushAnimatorDemo */,
 				C3FDEDD81EB668610032C8E5 /* AKGPushAnimatorDemoTests */,
 				C3FDEDE31EB668610032C8E5 /* AKGPushAnimatorDemoUITests */,
+				C31057E91EBF03B600C18F16 /* AKGPushAnimator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C31057E81EBF03B600C18F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FDEDC31EB668610032C8E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +374,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C31057E51EBF03B600C18F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31057F71EBF03BE00C18F16 /* AKGPushAnimator.swift in Sources */,
+				C31057F81EBF03BE00C18F16 /* AKGInteractionAnimator.swift in Sources */,
+				C31057F91EBF03BE00C18F16 /* AKGPushAnimatorConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FDEDC11EB668610032C8E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +417,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C31057F01EBF03B600C18F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31057E91EBF03B600C18F16 /* AKGPushAnimator */;
+			targetProxy = C31057EF1EBF03B600C18F16 /* PBXContainerItemProxy */;
+		};
 		C3FDEDDB1EB668610032C8E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3FDEDC41EB668610032C8E5 /* AKGPushAnimatorDemo */;
@@ -346,6 +454,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C31057F41EBF03B600C18F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KUKEJWK3NR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKGPushAnimator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C31057F51EBF03B600C18F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KUKEJWK3NR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKGPushAnimator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C3FDEDEB1EB668610032C8E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,6 +594,7 @@
 		C3FDEDEE1EB668610032C8E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KUKEJWK3NR;
 				INFOPLIST_FILE = AKGPushAnimatorDemo/Info.plist;
@@ -456,6 +609,7 @@
 		C3FDEDEF1EB668610032C8E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KUKEJWK3NR;
 				INFOPLIST_FILE = AKGPushAnimatorDemo/Info.plist;
@@ -528,6 +682,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C31057F61EBF03B600C18F16 /* Build configuration list for PBXNativeTarget "AKGPushAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31057F41EBF03B600C18F16 /* Debug */,
+				C31057F51EBF03B600C18F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C3FDEDC01EB668610032C8E5 /* Build configuration list for PBXProject "AKGPushAnimatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
