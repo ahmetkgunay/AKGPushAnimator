@@ -77,6 +77,12 @@ public class AKGPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             let toView = toVC.view,
             let fromView = fromVC.view else { return }
         
+        toView.layer.shadowOpacity  = AKGPushAnimatorConstants.Common.shadowOpacity
+        toView.layer.shadowOffset   = CGSize(width:0, height:3)
+        toView.layer.shadowColor    = AKGPushAnimatorConstants.Common.shadowColor.cgColor
+        let shadowRect: CGRect      = toView.bounds.insetBy(dx: 0, dy: 4);  // inset top/bottom
+        toView.layer.shadowPath     = UIBezierPath(rect: shadowRect).cgPath
+        
         if !isReverseTransition {
             
             containerView.addSubview(fromView)
