@@ -1,0 +1,12 @@
+PODS:
+  - AKGPushAnimator (1.0.3)
+
+DEPENDENCIES:
+  - AKGPushAnimator (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  AKGPushAnimator: 7c6c0c348aa20b015c559bd41c0f8d39a39002fe
+
+PODFILE CHECKSUM: 47efaf878697cff3a4efeb7577867c4069d71ef8
+
+COCOAPODS: 1.2.1

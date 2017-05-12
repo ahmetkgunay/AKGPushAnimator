@@ -1,0 +1,6 @@
+framework module AKGPushAnimator {
+  umbrella header "AKGPushAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}

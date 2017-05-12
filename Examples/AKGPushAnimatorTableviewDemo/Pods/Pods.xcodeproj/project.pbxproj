@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133CDF0E2012B0402CB938A0A606541F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		21A9DB49C1A2A2E8B8753781B77644AE /* AKGPushAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E1852694A8D0B5DA7D6981AFEC3DF /* AKGPushAnimator-dummy.m */; };
+		265745C18CEEEF93BB37A79CD523F99B /* Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A02E68686130F0DDA716FF9BF1B4245F /* Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m */; };
+		3B8B9CBC6A0F0B6FB510FCC1B8407164 /* Pods-AKGPushAnimatorTableviewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF92226020952C7D0A541044A9453 /* Pods-AKGPushAnimatorTableviewDemo-dummy.m */; };
+		431B8189628D23F424B89DD7508B8AFA /* AKGPushAnimatorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A49A870FF8B61D9342265C8596D5F4 /* AKGPushAnimatorConstants.swift */; };
+		49BFABF8566BE5F8A79D697BA9C97D76 /* Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD237B70143008337288AC95E5CAEAA5 /* Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3D8D67C13B3D041DD270CD51487727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8B7F35B18DF9C7ED2ABDECC65022932F /* Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB904DD651AF3B8F3117C650E19D90 /* Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4CDD43A42E58645390DCBD88FEF1D1 /* AKGPushAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F67FF84CBD7F2F8E09E7E6625658C562 /* AKGPushAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C889FC95568B907FEE3644958B1939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C3451994C137440EDF5309F47C83BB6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE10BA1CB7284CF2A8B14657F7404FFC /* AKGPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E271FD4BE0ADF58E44E84168D5B549E /* AKGPushAnimator.swift */; };
+		DEAE968EC2D697BA557ED369F3888378 /* Pods-AKGPushAnimatorTableviewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB09553F555644D08657D66C530626A /* Pods-AKGPushAnimatorTableviewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF13C6D7D06860FC43E3EB3F4F339CF8 /* AKGInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD65E85D375CBAA1620C55A738B4997 /* AKGInteractionAnimator.swift */; };
+		E1BB7924035482EC7C0484916288C5A4 /* Pods-AKGPushAnimatorTableviewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C119A1F10CD7CB8D51D2D21BE20DF7CA /* Pods-AKGPushAnimatorTableviewDemoTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C14CA46742E2309F4048D90FD5FD347E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32B8BAACFDE47B2DFED9C82BAC0A229;
+			remoteInfo = AKGPushAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB09553F555644D08657D66C530626A /* Pods-AKGPushAnimatorTableviewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGPushAnimatorTableviewDemo-umbrella.h"; sourceTree = "<group>"; };
+		12DFC794041A64CBF10297BDE10EF171 /* Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E460BB3B16BCC56474953101F344F19 /* Pods-AKGPushAnimatorTableviewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23DF0748CA8A44BAD24DC22A7ECAAA62 /* AKGPushAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGPushAnimator-prefix.pch"; sourceTree = "<group>"; };
+		2BFD4F7FBC5440B05C7AA6E25DD327FD /* Pods-AKGPushAnimatorTableviewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGPushAnimatorTableviewDemo.modulemap"; sourceTree = "<group>"; };
+		2D88084C7D161243A72E9AC80FF3CB0D /* Pods-AKGPushAnimatorTableviewDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGPushAnimatorTableviewDemoTests.modulemap"; sourceTree = "<group>"; };
+		2FEB904DD651AF3B8F3117C650E19D90 /* Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		38874D876477F08C7E96C766A1DC6C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5632F65184BC2AB2E2D7A64770905C /* Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		45F8D07566FE9B85EA9D21BEF1DBF4FC /* Pods-AKGPushAnimatorTableviewDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		46664ECFE7C7286334CA281C80C5AB05 /* Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		466DA6F7EB84B8E689731CFC8C66CCF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A820F7FB08280D539E188E1B976B933 /* Pods-AKGPushAnimatorTableviewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4B25388177473EEEF8B680634C1AD71B /* Pods_AKGPushAnimatorTableviewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGPushAnimatorTableviewDemo.framework; path = "Pods-AKGPushAnimatorTableviewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB82F45C6F3582C676A72DC0080EC44 /* Pods-AKGPushAnimatorTableviewDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5233EDDDF49A96B541ED95DB00D40200 /* Pods-AKGPushAnimatorTableviewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6094F88D5363E6A607952E0547F52CF0 /* Pods-AKGPushAnimatorTableviewDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7637D547218DC9D2ABFD75859C3AB28B /* Pods_AKGPushAnimatorTableviewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGPushAnimatorTableviewDemoTests.framework; path = "Pods-AKGPushAnimatorTableviewDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956E172F71B7EF2B0293B64608472D8 /* Pods-AKGPushAnimatorTableviewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemo-resources.sh"; sourceTree = "<group>"; };
+		83A49A870FF8B61D9342265C8596D5F4 /* AKGPushAnimatorConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKGPushAnimatorConstants.swift; path = Source/AKGPushAnimatorConstants.swift; sourceTree = "<group>"; };
+		8E271FD4BE0ADF58E44E84168D5B549E /* AKGPushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKGPushAnimator.swift; path = Source/AKGPushAnimator.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2E1852694A8D0B5DA7D6981AFEC3DF /* AKGPushAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKGPushAnimator-dummy.m"; sourceTree = "<group>"; };
+		A02E68686130F0DDA716FF9BF1B4245F /* Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		ABD65E85D375CBAA1620C55A738B4997 /* AKGInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKGInteractionAnimator.swift; path = Source/AKGInteractionAnimator.swift; sourceTree = "<group>"; };
+		B8316BA3A8569223254B6F4E571508FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C119A1F10CD7CB8D51D2D21BE20DF7CA /* Pods-AKGPushAnimatorTableviewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGPushAnimatorTableviewDemoTests-dummy.m"; sourceTree = "<group>"; };
+		C6B1A46E2967AECDAA2F78BC09A0CE65 /* AKGPushAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKGPushAnimator.xcconfig; sourceTree = "<group>"; };
+		CD237B70143008337288AC95E5CAEAA5 /* Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		D294F8AA8FB1CC49D4821F709E0BB77A /* Pods-AKGPushAnimatorTableviewDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGPushAnimatorTableviewDemoTests-resources.sh"; sourceTree = "<group>"; };
+		D62F762D72BE6985C91C69C104173EEB /* Pods-AKGPushAnimatorTableviewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGPushAnimatorTableviewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D68EF92226020952C7D0A541044A9453 /* Pods-AKGPushAnimatorTableviewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGPushAnimatorTableviewDemo-dummy.m"; sourceTree = "<group>"; };
+		DADB0E68FBDC60E8B40360A071C0AB1A /* Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFAD630916466FAC2C71052FF86645D0 /* Pods-AKGPushAnimatorTableviewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1BC4276A374E51F0B0F2DE183B126CA /* AKGPushAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKGPushAnimator.framework; path = AKGPushAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E00AF631678B0C5828473F301D0417 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23F82BE566ED87E9ECA0503D207F4E6 /* Pods_AKGPushAnimatorTableviewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGPushAnimatorTableviewDemoUITests.framework; path = "Pods-AKGPushAnimatorTableviewDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B16DB45CAEE5EDD1A50992C2EEFE35 /* Pods-AKGPushAnimatorTableviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8E49E6AF1B4CB149CFEB1031973C388 /* Pods-AKGPushAnimatorTableviewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2491F6115B1803C5DDE1E5077832C71 /* Pods-AKGPushAnimatorTableviewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGPushAnimatorTableviewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F67FF84CBD7F2F8E09E7E6625658C562 /* AKGPushAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGPushAnimator-umbrella.h"; sourceTree = "<group>"; };
+		F68B772DFD14A76F8C2DC57C7250396A /* Pods-AKGPushAnimatorTableviewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGPushAnimatorTableviewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B9EFC2CB5455E47B4CC2DF82FD2339 /* Pods-AKGPushAnimatorTableviewDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGPushAnimatorTableviewDemoUITests.modulemap"; sourceTree = "<group>"; };
+		FF5D662BDAC375DD66537041B509321D /* AKGPushAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKGPushAnimator.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BA366067E2871997032B83FAF39A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3451994C137440EDF5309F47C83BB6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6C4AEDEF681B85FE96F3A1DEA97C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133CDF0E2012B0402CB938A0A606541F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFA9B62C577AC426543FC49804CBA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C889FC95568B907FEE3644958B1939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F0D7122D403685797E184A0E62A995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3D8D67C13B3D041DD270CD51487727 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0678980ABE09A135374B88A5EBC524EA /* AKGPushAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				ABD65E85D375CBAA1620C55A738B4997 /* AKGInteractionAnimator.swift */,
+				8E271FD4BE0ADF58E44E84168D5B549E /* AKGPushAnimator.swift */,
+				83A49A870FF8B61D9342265C8596D5F4 /* AKGPushAnimatorConstants.swift */,
+				4FB81D91FD8B898D98694AA00530BD5C /* Support Files */,
+			);
+			name = AKGPushAnimator;
+			path = AKGPushAnimator;
+			sourceTree = "<group>";
+		};
+		438BB938B843EEE7A20F0052824AEE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BC4276A374E51F0B0F2DE183B126CA /* AKGPushAnimator.framework */,
+				4B25388177473EEEF8B680634C1AD71B /* Pods_AKGPushAnimatorTableviewDemo.framework */,
+				7637D547218DC9D2ABFD75859C3AB28B /* Pods_AKGPushAnimatorTableviewDemoTests.framework */,
+				E23F82BE566ED87E9ECA0503D207F4E6 /* Pods_AKGPushAnimatorTableviewDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FB81D91FD8B898D98694AA00530BD5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D662BDAC375DD66537041B509321D /* AKGPushAnimator.modulemap */,
+				C6B1A46E2967AECDAA2F78BC09A0CE65 /* AKGPushAnimator.xcconfig */,
+				9A2E1852694A8D0B5DA7D6981AFEC3DF /* AKGPushAnimator-dummy.m */,
+				23DF0748CA8A44BAD24DC22A7ECAAA62 /* AKGPushAnimator-prefix.pch */,
+				F67FF84CBD7F2F8E09E7E6625658C562 /* AKGPushAnimator-umbrella.h */,
+				E1E00AF631678B0C5828473F301D0417 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKGPushAnimator";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8BC9AEFEB745F35E01F8457EFF6CFFEE /* Pods */,
+				438BB938B843EEE7A20F0052824AEE6A /* Products */,
+				AD88F224A2AE4C86C5CF428B4CB291FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC9AEFEB745F35E01F8457EFF6CFFEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0678980ABE09A135374B88A5EBC524EA /* AKGPushAnimator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A01AC83B105D9F596971BF1ABB4E6394 /* Pods-AKGPushAnimatorTableviewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8316BA3A8569223254B6F4E571508FC /* Info.plist */,
+				2D88084C7D161243A72E9AC80FF3CB0D /* Pods-AKGPushAnimatorTableviewDemoTests.modulemap */,
+				46664ECFE7C7286334CA281C80C5AB05 /* Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.markdown */,
+				3F5632F65184BC2AB2E2D7A64770905C /* Pods-AKGPushAnimatorTableviewDemoTests-acknowledgements.plist */,
+				C119A1F10CD7CB8D51D2D21BE20DF7CA /* Pods-AKGPushAnimatorTableviewDemoTests-dummy.m */,
+				6094F88D5363E6A607952E0547F52CF0 /* Pods-AKGPushAnimatorTableviewDemoTests-frameworks.sh */,
+				D294F8AA8FB1CC49D4821F709E0BB77A /* Pods-AKGPushAnimatorTableviewDemoTests-resources.sh */,
+				2FEB904DD651AF3B8F3117C650E19D90 /* Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h */,
+				E8E49E6AF1B4CB149CFEB1031973C388 /* Pods-AKGPushAnimatorTableviewDemoTests.debug.xcconfig */,
+				F68B772DFD14A76F8C2DC57C7250396A /* Pods-AKGPushAnimatorTableviewDemoTests.release.xcconfig */,
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemoTests";
+			path = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoTests";
+			sourceTree = "<group>";
+		};
+		AD88F224A2AE4C86C5CF428B4CB291FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE7654D4F8648F98A54CFF472B8501FB /* Pods-AKGPushAnimatorTableviewDemo */,
+				A01AC83B105D9F596971BF1ABB4E6394 /* Pods-AKGPushAnimatorTableviewDemoTests */,
+				AE0DDBD1949A7872B21F884C316C5A9A /* Pods-AKGPushAnimatorTableviewDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE0DDBD1949A7872B21F884C316C5A9A /* Pods-AKGPushAnimatorTableviewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38874D876477F08C7E96C766A1DC6C97 /* Info.plist */,
+				F6B9EFC2CB5455E47B4CC2DF82FD2339 /* Pods-AKGPushAnimatorTableviewDemoUITests.modulemap */,
+				DADB0E68FBDC60E8B40360A071C0AB1A /* Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.markdown */,
+				12DFC794041A64CBF10297BDE10EF171 /* Pods-AKGPushAnimatorTableviewDemoUITests-acknowledgements.plist */,
+				A02E68686130F0DDA716FF9BF1B4245F /* Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m */,
+				4EB82F45C6F3582C676A72DC0080EC44 /* Pods-AKGPushAnimatorTableviewDemoUITests-frameworks.sh */,
+				45F8D07566FE9B85EA9D21BEF1DBF4FC /* Pods-AKGPushAnimatorTableviewDemoUITests-resources.sh */,
+				CD237B70143008337288AC95E5CAEAA5 /* Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h */,
+				DFAD630916466FAC2C71052FF86645D0 /* Pods-AKGPushAnimatorTableviewDemoUITests.debug.xcconfig */,
+				1E460BB3B16BCC56474953101F344F19 /* Pods-AKGPushAnimatorTableviewDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemoUITests";
+			path = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE7654D4F8648F98A54CFF472B8501FB /* Pods-AKGPushAnimatorTableviewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				466DA6F7EB84B8E689731CFC8C66CCF3 /* Info.plist */,
+				2BFD4F7FBC5440B05C7AA6E25DD327FD /* Pods-AKGPushAnimatorTableviewDemo.modulemap */,
+				D62F762D72BE6985C91C69C104173EEB /* Pods-AKGPushAnimatorTableviewDemo-acknowledgements.markdown */,
+				F2491F6115B1803C5DDE1E5077832C71 /* Pods-AKGPushAnimatorTableviewDemo-acknowledgements.plist */,
+				D68EF92226020952C7D0A541044A9453 /* Pods-AKGPushAnimatorTableviewDemo-dummy.m */,
+				4A820F7FB08280D539E188E1B976B933 /* Pods-AKGPushAnimatorTableviewDemo-frameworks.sh */,
+				7956E172F71B7EF2B0293B64608472D8 /* Pods-AKGPushAnimatorTableviewDemo-resources.sh */,
+				0DB09553F555644D08657D66C530626A /* Pods-AKGPushAnimatorTableviewDemo-umbrella.h */,
+				5233EDDDF49A96B541ED95DB00D40200 /* Pods-AKGPushAnimatorTableviewDemo.debug.xcconfig */,
+				E3B16DB45CAEE5EDD1A50992C2EEFE35 /* Pods-AKGPushAnimatorTableviewDemo.release.xcconfig */,
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemo";
+			path = "Target Support Files/Pods-AKGPushAnimatorTableviewDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A3E1EFAFF442E97BD810D5E4D6BB58B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4CDD43A42E58645390DCBD88FEF1D1 /* AKGPushAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA29AFBAF753A4F12995FC6644E7311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BFABF8566BE5F8A79D697BA9C97D76 /* Pods-AKGPushAnimatorTableviewDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5008A3DF2E068E2860C00B66071D318A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7F35B18DF9C7ED2ABDECC65022932F /* Pods-AKGPushAnimatorTableviewDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F6DBC2CC7C8C00FE9BE5C01E657B8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAE968EC2D697BA557ED369F3888378 /* Pods-AKGPushAnimatorTableviewDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60F912A1CB9BA4F2386A9A09DFBE4CAC /* Pods-AKGPushAnimatorTableviewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC72D5B9B7C8710876E6B8D9E1EE57 /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemo" */;
+			buildPhases = (
+				CF317313517AF3AC4F6EDE7EB1857655 /* Sources */,
+				3D6C4AEDEF681B85FE96F3A1DEA97C07 /* Frameworks */,
+				E3F6DBC2CC7C8C00FE9BE5C01E657B8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F950761D1A8A66125F34F88A8A785DE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemo";
+			productName = "Pods-AKGPushAnimatorTableviewDemo";
+			productReference = 4B25388177473EEEF8B680634C1AD71B /* Pods_AKGPushAnimatorTableviewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A32B8BAACFDE47B2DFED9C82BAC0A229 /* AKGPushAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62EC8A24F295DE67C315001E436DE875 /* Build configuration list for PBXNativeTarget "AKGPushAnimator" */;
+			buildPhases = (
+				6355223CCB861D1BEF2E29929449A955 /* Sources */,
+				75F0D7122D403685797E184A0E62A995 /* Frameworks */,
+				2A3E1EFAFF442E97BD810D5E4D6BB58B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKGPushAnimator;
+			productName = AKGPushAnimator;
+			productReference = E1BC4276A374E51F0B0F2DE183B126CA /* AKGPushAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E58999E4D94B5880D23E6C48C5A57EC5 /* Pods-AKGPushAnimatorTableviewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71F750C62CDED77CD00E8A03F001F5D /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemoUITests" */;
+			buildPhases = (
+				8F313D8ACF592A58C9E4374B56DFCDAD /* Sources */,
+				04BA366067E2871997032B83FAF39A62 /* Frameworks */,
+				2EA29AFBAF753A4F12995FC6644E7311 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemoUITests";
+			productName = "Pods-AKGPushAnimatorTableviewDemoUITests";
+			productReference = E23F82BE566ED87E9ECA0503D207F4E6 /* Pods_AKGPushAnimatorTableviewDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2C10537A2044BEE448CCA170CD30D2D /* Pods-AKGPushAnimatorTableviewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AD7E799571D13104B1E0889A684F91 /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemoTests" */;
+			buildPhases = (
+				2295179CCA2A0960E9EC9B05C6329C19 /* Sources */,
+				6EFA9B62C577AC426543FC49804CBA3A /* Frameworks */,
+				5008A3DF2E068E2860C00B66071D318A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AKGPushAnimatorTableviewDemoTests";
+			productName = "Pods-AKGPushAnimatorTableviewDemoTests";
+			productReference = 7637D547218DC9D2ABFD75859C3AB28B /* Pods_AKGPushAnimatorTableviewDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 438BB938B843EEE7A20F0052824AEE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32B8BAACFDE47B2DFED9C82BAC0A229 /* AKGPushAnimator */,
+				60F912A1CB9BA4F2386A9A09DFBE4CAC /* Pods-AKGPushAnimatorTableviewDemo */,
+				F2C10537A2044BEE448CCA170CD30D2D /* Pods-AKGPushAnimatorTableviewDemoTests */,
+				E58999E4D94B5880D23E6C48C5A57EC5 /* Pods-AKGPushAnimatorTableviewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2295179CCA2A0960E9EC9B05C6329C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BB7924035482EC7C0484916288C5A4 /* Pods-AKGPushAnimatorTableviewDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6355223CCB861D1BEF2E29929449A955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF13C6D7D06860FC43E3EB3F4F339CF8 /* AKGInteractionAnimator.swift in Sources */,
+				21A9DB49C1A2A2E8B8753781B77644AE /* AKGPushAnimator-dummy.m in Sources */,
+				CE10BA1CB7284CF2A8B14657F7404FFC /* AKGPushAnimator.swift in Sources */,
+				431B8189628D23F424B89DD7508B8AFA /* AKGPushAnimatorConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F313D8ACF592A58C9E4374B56DFCDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265745C18CEEEF93BB37A79CD523F99B /* Pods-AKGPushAnimatorTableviewDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF317313517AF3AC4F6EDE7EB1857655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8B9CBC6A0F0B6FB510FCC1B8407164 /* Pods-AKGPushAnimatorTableviewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F950761D1A8A66125F34F88A8A785DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKGPushAnimator;
+			target = A32B8BAACFDE47B2DFED9C82BAC0A229 /* AKGPushAnimator */;
+			targetProxy = C14CA46742E2309F4048D90FD5FD347E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D053E126ED0833AE31256DF2545489B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5233EDDDF49A96B541ED95DB00D40200 /* Pods-AKGPushAnimatorTableviewDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemo/Pods-AKGPushAnimatorTableviewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		146DC5C6FC15A3E306CDB7BBAA16A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B16DB45CAEE5EDD1A50992C2EEFE35 /* Pods-AKGPushAnimatorTableviewDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemo/Pods-AKGPushAnimatorTableviewDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CA199F2232DD3BA171380757516020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAD630916466FAC2C71052FF86645D0 /* Pods-AKGPushAnimatorTableviewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoUITests/Pods-AKGPushAnimatorTableviewDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71D904892E170E578717922C1D8CE733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B1A46E2967AECDAA2F78BC09A0CE65 /* AKGPushAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKGPushAnimator/AKGPushAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKGPushAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKGPushAnimator/AKGPushAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AKGPushAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		974A79D157F348DF62E948DE441FA142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E460BB3B16BCC56474953101F344F19 /* Pods-AKGPushAnimatorTableviewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoUITests/Pods-AKGPushAnimatorTableviewDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A78E05B263272A18B358E616D012C4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E49E6AF1B4CB149CFEB1031973C388 /* Pods-AKGPushAnimatorTableviewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoTests/Pods-AKGPushAnimatorTableviewDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF15C4BC04289B2AAAE268F568294245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68B772DFD14A76F8C2DC57C7250396A /* Pods-AKGPushAnimatorTableviewDemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKGPushAnimatorTableviewDemoTests/Pods-AKGPushAnimatorTableviewDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AKGPushAnimatorTableviewDemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF95001C68BD3EB3D8ADC215A4A3D54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B1A46E2967AECDAA2F78BC09A0CE65 /* AKGPushAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKGPushAnimator/AKGPushAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKGPushAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKGPushAnimator/AKGPushAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AKGPushAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AD7E799571D13104B1E0889A684F91 /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E05B263272A18B358E616D012C4EE /* Debug */,
+				DF15C4BC04289B2AAAE268F568294245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62EC8A24F295DE67C315001E436DE875 /* Build configuration list for PBXNativeTarget "AKGPushAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D904892E170E578717922C1D8CE733 /* Debug */,
+				EF95001C68BD3EB3D8ADC215A4A3D54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC72D5B9B7C8710876E6B8D9E1EE57 /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D053E126ED0833AE31256DF2545489B /* Debug */,
+				146DC5C6FC15A3E306CDB7BBAA16A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71F750C62CDED77CD00E8A03F001F5D /* Build configuration list for PBXNativeTarget "Pods-AKGPushAnimatorTableviewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CA199F2232DD3BA171380757516020 /* Debug */,
+				974A79D157F348DF62E948DE441FA142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
