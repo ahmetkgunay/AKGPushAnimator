@@ -36,6 +36,10 @@ extension FirstViewController: AKGPushAnimatorDelegate {
         print("began transition")
     }
     
+    func cancelledTransition() {
+        print("cancelled transition")
+    }
+    
     func finishedTransition() {
         print("finished transition")
     }

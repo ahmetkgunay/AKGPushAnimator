@@ -3,22 +3,29 @@ Easily Push and Pop viewcontroller like Instagram App with Interaction written i
 
 ![Anim](https://github.com/ahmetkgunay/AKGPushAnimator/blob/master/AKGPushAnimator.gif)
 
+## Import Library To Your Class
+
+If you are using Carthage to install AKGPushAnimator, then you need to import AKGPushAnimatorKit where you want to use.
+Because "Carthage" needs Embedded Framework to install libraries, and AKGPushAnimatorKit is the embedded library name of this project.
+
+If you are using Cocoapods to install AKGPushAnimator, then you need to import AKGPushAnimator where you want to use it.
 
 ## Usage
 
 Usage is simple with creating any BaseViewController and implement UINavigationControllerDelegate 
 
+
 ```swift
 
 class BaseViewController: UIViewController, UINavigationControllerDelegate {
 
-let pushAnimator = AKGPushAnimator()
-let interactionAnimator = AKGInteractionAnimator()
+    let pushAnimator = AKGPushAnimator()
+    let interactionAnimator = AKGInteractionAnimator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
 
         if operation == .push {
@@ -80,11 +87,31 @@ struct Pop {
 ```
 ## Installation
 
-AKGPushAnimator is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+There are three ways to use AKGPushAnimator in your project:
+- using CocoaPods
+- using Carthage
+- by cloning the project into your repository
 
+### Installation with CocoaPods
+
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Swift and Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the [Get Started](http://cocoapods.org/#get_started) section for more details.
+
+#### Podfile
 ```ruby
-pod 'AKGPushAnimator', '~> 1.0.2'
+platform :ios, '8.0'
+use_frameworks!
+pod 'AKGPushAnimator', '~> 1.0.3'
+```
+
+### Installation with Carthage (iOS 8+)
+
+[Carthage](https://github.com/Carthage/Carthage) is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods.
+
+To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage)
+
+#### Cartfile
+```
+github "ahmetkgunay/AKGPushAnimator" ~> 1.0.3
 ```
 
 ## Author
