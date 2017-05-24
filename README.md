@@ -52,6 +52,7 @@ class FirstViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        pushAnimator.delegate = self
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -64,7 +65,30 @@ class FirstViewController: BaseViewController {
         super.didReceiveMemoryWarning()
     }
 }
+
 ```
+
+#### Delegation Pattern
+
+```swift
+
+extension FirstViewController: AKGPushAnimatorDelegate {
+
+    func beganTransition() {
+        print("began transition")
+    }
+
+    func cancelledTransition() {
+        print("cancelled transition")
+    }
+
+    func finishedTransition() {
+        print("finished transition")
+    }
+}
+
+```
+
 #### Customise Animation with constants
 
 AKGPushAnimator has constants file to easily change animation types:
@@ -73,6 +97,8 @@ AKGPushAnimator has constants file to easily change animation types:
 struct Common {
     static let duration = 0.27;
     static let dismissPosition : CGFloat = -50;
+    static let shadowOpacity : Float = 1
+    static let shadowColor : UIColor = .black
 }
 
 struct Push {
@@ -100,7 +126,7 @@ There are three ways to use AKGPushAnimator in your project:
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'AKGPushAnimator', '~> 1.0.4'
+pod 'AKGPushAnimator', '~> 1.0.5'
 ```
 
 ### Installation with Carthage
@@ -111,7 +137,7 @@ To install with carthage, follow the instruction on [Carthage](https://github.co
 
 #### Cartfile
 ```
-github "ahmetkgunay/AKGPushAnimator" ~> 1.0.4
+github "ahmetkgunay/AKGPushAnimator" ~> 1.0.5
 ```
 
 ## Author
