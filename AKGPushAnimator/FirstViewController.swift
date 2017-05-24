@@ -12,6 +12,7 @@ class FirstViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        pushAnimator.delegate = self
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -22,5 +23,20 @@ class FirstViewController: BaseViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    deinit {
+        pushAnimator.delegate = nil
+    }
+}
+
+extension FirstViewController: AKGPushAnimatorDelegate {
+    
+    func beganTransition() {
+        print("began transition")
+    }
+    
+    func finishedTransition() {
+        print("finished transition")
     }
 }
