@@ -140,12 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				C3D309B51EC5F9640080FE73 /* AppDelegate.swift */,
+				C3D309E31EC5FC620080FE73 /* BaseViewController.swift */,
 				C3D309B71EC5F9640080FE73 /* ViewController.swift */,
 				C3D309B91EC5F9640080FE73 /* Main.storyboard */,
 				C3D309BC1EC5F9640080FE73 /* Assets.xcassets */,
 				C3D309BE1EC5F9640080FE73 /* LaunchScreen.storyboard */,
 				C3D309C11EC5F9640080FE73 /* Info.plist */,
-				C3D309E31EC5FC620080FE73 /* BaseViewController.swift */,
 			);
 			path = AKGPushAnimatorTableviewDemo;
 			sourceTree = "<group>";

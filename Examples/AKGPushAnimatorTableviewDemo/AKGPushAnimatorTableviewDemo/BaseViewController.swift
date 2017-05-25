@@ -9,7 +9,7 @@
 import UIKit
 import AKGPushAnimator
 
-class BaseViewController: UIViewController, UINavigationControllerDelegate {
+class BaseViewController: UIViewController, UINavigationControllerDelegate  {
     
     let pushAnimator = AKGPushAnimator()
     let interactionAnimator = AKGInteractionAnimator()

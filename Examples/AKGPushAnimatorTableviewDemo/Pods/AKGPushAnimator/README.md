@@ -100,10 +100,10 @@ There are three ways to use AKGPushAnimator in your project:
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'AKGPushAnimator', '~> 1.0.3'
+pod 'AKGPushAnimator', '~> 1.0.4'
 ```
 
-### Installation with Carthage (iOS 8+)
+### Installation with Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods.
 
@@ -111,7 +111,7 @@ To install with carthage, follow the instruction on [Carthage](https://github.co
 
 #### Cartfile
 ```
-github "ahmetkgunay/AKGPushAnimator" ~> 1.0.3
+github "ahmetkgunay/AKGPushAnimator" ~> 1.0.4
 ```
 
 ## Author

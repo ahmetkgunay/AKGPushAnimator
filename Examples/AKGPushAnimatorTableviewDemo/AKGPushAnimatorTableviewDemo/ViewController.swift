@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AKGPushAnimator
 
 class ViewController: BaseViewController {
 
@@ -15,6 +16,7 @@ class ViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: "cellId")
+        pushAnimator.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,6 +27,10 @@ class ViewController: BaseViewController {
         if segue.identifier == "showDetail" {
             navigationController?.delegate = self
         }
+    }
+    
+    deinit {
+        pushAnimator.delegate = nil
     }
 }
 
@@ -51,6 +57,21 @@ extension ViewController : UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
         cell.textLabel?.text = "\(indexPath.row + 1)"
         return cell
+    }
+}
+
+extension ViewController : AKGPushAnimatorDelegate {
+    
+    func beganTransition() {
+        print("bagan transition")
+    }
+    
+    func cancelledTransition() {
+        print("cancelled transition")
+    }
+    
+    func finishedTransition() {
+        print("finished transition")
     }
 }
 

@@ -3,7 +3,7 @@ platform :ios, '8.0'
 target 'AKGPushAnimatorTableviewDemo' do
   use_frameworks!
 
-pod 'AKGPushAnimator', '~> 1.0.4'
+pod 'AKGPushAnimator', '~> 1.0.5'
 
   target 'AKGPushAnimatorTableviewDemoTests' do
     inherit! :search_paths

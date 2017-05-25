@@ -11,9 +11,9 @@ import UIKit
 @objc public protocol AKGPushAnimatorDelegate {
     
     @objc optional func beganTransition()
+    @objc optional func cancelledTransition()
     @objc optional func finishedTransition()
 }
-
 
 public class AKGPushAnimator: NSObject {
     
@@ -86,12 +86,13 @@ public class AKGPushAnimator: NSObject {
                         
                         if (transitionContext.transitionWasCancelled) {
                             toView.removeFromSuperview()
+                            self.delegate?.cancelledTransition?()
                         } else {
                             fromView.removeFromSuperview()
+                            self.delegate?.finishedTransition?()
                         }
                         transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
                         
-                        self.delegate?.finishedTransition?()
         }
     }
     
