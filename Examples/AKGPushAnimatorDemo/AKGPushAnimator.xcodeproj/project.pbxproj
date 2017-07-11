@@ -16,9 +16,9 @@
 		C31058731EBF3C4800C18F16 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058701EBF3C4800C18F16 /* BaseViewController.swift */; };
 		C31058741EBF3C4800C18F16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058711EBF3C4800C18F16 /* FirstViewController.swift */; };
 		C31058751EBF3C4800C18F16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058721EBF3C4800C18F16 /* SecondViewController.swift */; };
-		C310587A1EBF3C5100C18F16 /* AKGInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058771EBF3C5100C18F16 /* AKGInteractionAnimator.swift */; };
-		C310587B1EBF3C5100C18F16 /* AKGPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058781EBF3C5100C18F16 /* AKGPushAnimator.swift */; };
-		C310587C1EBF3C5100C18F16 /* AKGPushAnimatorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058791EBF3C5100C18F16 /* AKGPushAnimatorConstants.swift */; };
+		C3634D4B1F153C1300DDF5B0 /* AKGInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3634D481F153C1300DDF5B0 /* AKGInteractionAnimator.swift */; };
+		C3634D4C1F153C1300DDF5B0 /* AKGPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3634D491F153C1300DDF5B0 /* AKGPushAnimator.swift */; };
+		C3634D4D1F153C1300DDF5B0 /* AKGPushAnimatorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3634D4A1F153C1300DDF5B0 /* AKGPushAnimatorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +69,9 @@
 		C31058701EBF3C4800C18F16 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C31058711EBF3C4800C18F16 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C31058721EBF3C4800C18F16 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		C31058771EBF3C5100C18F16 /* AKGInteractionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKGInteractionAnimator.swift; sourceTree = "<group>"; };
-		C31058781EBF3C5100C18F16 /* AKGPushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKGPushAnimator.swift; sourceTree = "<group>"; };
-		C31058791EBF3C5100C18F16 /* AKGPushAnimatorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKGPushAnimatorConstants.swift; sourceTree = "<group>"; };
+		C3634D481F153C1300DDF5B0 /* AKGInteractionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKGInteractionAnimator.swift; path = ../../../Source/AKGInteractionAnimator.swift; sourceTree = "<group>"; };
+		C3634D491F153C1300DDF5B0 /* AKGPushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKGPushAnimator.swift; path = ../../../Source/AKGPushAnimator.swift; sourceTree = "<group>"; };
+		C3634D4A1F153C1300DDF5B0 /* AKGPushAnimatorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKGPushAnimatorConstants.swift; path = ../../../Source/AKGPushAnimatorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		C310582F1EBF3B3400C18F16 /* AKGPushAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				C31058761EBF3C5100C18F16 /* AKGPushAnimator */,
+				C3634D471F153C0800DDF5B0 /* Source */,
 				C31058701EBF3C4800C18F16 /* BaseViewController.swift */,
 				C31058711EBF3C4800C18F16 /* FirstViewController.swift */,
 				C31058721EBF3C4800C18F16 /* SecondViewController.swift */,
@@ -163,14 +163,14 @@
 			path = AKGPushAnimatorKit;
 			sourceTree = "<group>";
 		};
-		C31058761EBF3C5100C18F16 /* AKGPushAnimator */ = {
+		C3634D471F153C0800DDF5B0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C31058771EBF3C5100C18F16 /* AKGInteractionAnimator.swift */,
-				C31058781EBF3C5100C18F16 /* AKGPushAnimator.swift */,
-				C31058791EBF3C5100C18F16 /* AKGPushAnimatorConstants.swift */,
+				C3634D481F153C1300DDF5B0 /* AKGInteractionAnimator.swift */,
+				C3634D491F153C1300DDF5B0 /* AKGPushAnimator.swift */,
+				C3634D4A1F153C1300DDF5B0 /* AKGPushAnimatorConstants.swift */,
 			);
-			path = AKGPushAnimator;
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C310587B1EBF3C5100C18F16 /* AKGPushAnimator.swift in Sources */,
-				C310587A1EBF3C5100C18F16 /* AKGInteractionAnimator.swift in Sources */,
 				C31058311EBF3B3400C18F16 /* AppDelegate.swift in Sources */,
-				C310587C1EBF3C5100C18F16 /* AKGPushAnimatorConstants.swift in Sources */,
 				C31058731EBF3C4800C18F16 /* BaseViewController.swift in Sources */,
 				C31058751EBF3C4800C18F16 /* SecondViewController.swift in Sources */,
 				C31058741EBF3C4800C18F16 /* FirstViewController.swift in Sources */,
+				C3634D4D1F153C1300DDF5B0 /* AKGPushAnimatorConstants.swift in Sources */,
+				C3634D4C1F153C1300DDF5B0 /* AKGPushAnimator.swift in Sources */,
+				C3634D4B1F153C1300DDF5B0 /* AKGInteractionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
