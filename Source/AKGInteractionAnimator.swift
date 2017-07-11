@@ -34,8 +34,9 @@ public class AKGInteractionAnimator: UIPercentDrivenInteractiveTransition {
             transitionInProgress = true
             navigationController.popViewController(animated: true)
         case .changed:
-            let const = CGFloat(viewTranslation.x / UIScreen.main.bounds.width)
-            shouldCompleteTransition = const > 0.4 || velocity.x > UIScreen.main.bounds.width
+            var const = CGFloat(viewTranslation.x / UIScreen.main.bounds.width * 1.0)
+            const = min(1.0, max(0.0, const))
+            shouldCompleteTransition = const > 0.5 || velocity.x > UIScreen.main.bounds.width
             update(const)
         case .cancelled, .ended:
             transitionInProgress = false
