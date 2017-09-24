@@ -12,7 +12,6 @@
 		C31058381EBF3B3400C18F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31058371EBF3B3400C18F16 /* Assets.xcassets */; };
 		C310583B1EBF3B3400C18F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31058391EBF3B3400C18F16 /* LaunchScreen.storyboard */; };
 		C31058461EBF3B3400C18F16 /* AKGPushAnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058451EBF3B3400C18F16 /* AKGPushAnimatorTests.swift */; };
-		C31058511EBF3B3400C18F16 /* AKGPushAnimatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31058501EBF3B3400C18F16 /* AKGPushAnimatorUITests.swift */; };
 		C31058671EBF3BB500C18F16 /* AKGPushAnimatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C31058651EBF3BB500C18F16 /* AKGPushAnimatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C310586A1EBF3BB500C18F16 /* AKGPushAnimatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31058631EBF3BB500C18F16 /* AKGPushAnimatorKit.framework */; };
 		C310586B1EBF3BB500C18F16 /* AKGPushAnimatorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C31058631EBF3BB500C18F16 /* AKGPushAnimatorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -26,13 +25,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		C31058421EBF3B3400C18F16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C31058251EBF3B3400C18F16 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C310582C1EBF3B3400C18F16;
-			remoteInfo = AKGPushAnimator;
-		};
-		C310584D1EBF3B3400C18F16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C31058251EBF3B3400C18F16 /* Project object */;
 			proxyType = 1;
@@ -72,7 +64,6 @@
 		C31058411EBF3B3400C18F16 /* AKGPushAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPushAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31058451EBF3B3400C18F16 /* AKGPushAnimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKGPushAnimatorTests.swift; sourceTree = "<group>"; };
 		C31058471EBF3B3400C18F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C310584C1EBF3B3400C18F16 /* AKGPushAnimatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPushAnimatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31058501EBF3B3400C18F16 /* AKGPushAnimatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKGPushAnimatorUITests.swift; sourceTree = "<group>"; };
 		C31058521EBF3B3400C18F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31058631EBF3BB500C18F16 /* AKGPushAnimatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKGPushAnimatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,13 +87,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C310583E1EBF3B3400C18F16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C31058491EBF3B3400C18F16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +119,6 @@
 			children = (
 				C310582D1EBF3B3400C18F16 /* AKGPushAnimator.app */,
 				C31058411EBF3B3400C18F16 /* AKGPushAnimatorTests.xctest */,
-				C310584C1EBF3B3400C18F16 /* AKGPushAnimatorUITests.xctest */,
 				C31058631EBF3BB500C18F16 /* AKGPushAnimatorKit.framework */,
 			);
 			name = Products;
@@ -245,24 +228,6 @@
 			productReference = C31058411EBF3B3400C18F16 /* AKGPushAnimatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C310584B1EBF3B3400C18F16 /* AKGPushAnimatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C310585B1EBF3B3400C18F16 /* Build configuration list for PBXNativeTarget "AKGPushAnimatorUITests" */;
-			buildPhases = (
-				C31058481EBF3B3400C18F16 /* Sources */,
-				C31058491EBF3B3400C18F16 /* Frameworks */,
-				C310584A1EBF3B3400C18F16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C310584E1EBF3B3400C18F16 /* PBXTargetDependency */,
-			);
-			name = AKGPushAnimatorUITests;
-			productName = AKGPushAnimatorUITests;
-			productReference = C310584C1EBF3B3400C18F16 /* AKGPushAnimatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		C31058621EBF3BB500C18F16 /* AKGPushAnimatorKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C310586E1EBF3BB500C18F16 /* Build configuration list for PBXNativeTarget "AKGPushAnimatorKit" */;
@@ -288,29 +253,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "AHMET KAZIM GUNAY";
 				TargetAttributes = {
 					C310582C1EBF3B3400C18F16 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KUKEJWK3NR;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					C31058401EBF3B3400C18F16 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KUKEJWK3NR;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C310582C1EBF3B3400C18F16;
-					};
-					C310584B1EBF3B3400C18F16 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KUKEJWK3NR;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C310582C1EBF3B3400C18F16;
 					};
 					C31058621EBF3BB500C18F16 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KUKEJWK3NR;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -330,7 +292,6 @@
 			targets = (
 				C310582C1EBF3B3400C18F16 /* AKGPushAnimator */,
 				C31058401EBF3B3400C18F16 /* AKGPushAnimatorTests */,
-				C310584B1EBF3B3400C18F16 /* AKGPushAnimatorUITests */,
 				C31058621EBF3BB500C18F16 /* AKGPushAnimatorKit */,
 			);
 		};
@@ -348,13 +309,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C310583F1EBF3B3400C18F16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C310584A1EBF3B3400C18F16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,14 +347,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31058481EBF3B3400C18F16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C31058511EBF3B3400C18F16 /* AKGPushAnimatorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C310585E1EBF3BB500C18F16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,11 +361,6 @@
 			isa = PBXTargetDependency;
 			target = C310582C1EBF3B3400C18F16 /* AKGPushAnimator */;
 			targetProxy = C31058421EBF3B3400C18F16 /* PBXContainerItemProxy */;
-		};
-		C310584E1EBF3B3400C18F16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C310582C1EBF3B3400C18F16 /* AKGPushAnimator */;
-			targetProxy = C310584D1EBF3B3400C18F16 /* PBXContainerItemProxy */;
 		};
 		C31058691EBF3BB500C18F16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -457,7 +398,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -465,7 +408,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -494,6 +441,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -507,7 +455,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -515,7 +465,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -536,6 +490,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -550,7 +505,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -563,7 +519,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -577,7 +534,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKGPushAnimator.app/AKGPushAnimator";
 			};
 			name = Debug;
@@ -592,36 +550,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKGPushAnimator.app/AKGPushAnimator";
-			};
-			name = Release;
-		};
-		C310585C1EBF3B3400C18F16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = KUKEJWK3NR;
-				INFOPLIST_FILE = AKGPushAnimatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = AKGPushAnimator;
-			};
-			name = Debug;
-		};
-		C310585D1EBF3B3400C18F16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = KUKEJWK3NR;
-				INFOPLIST_FILE = AKGPushAnimatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = AKGPushAnimator;
 			};
 			name = Release;
 		};
@@ -641,7 +572,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -663,7 +595,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmetkgunay.AKGPushAnimatorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -695,15 +628,6 @@
 			buildConfigurations = (
 				C31058591EBF3B3400C18F16 /* Debug */,
 				C310585A1EBF3B3400C18F16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C310585B1EBF3B3400C18F16 /* Build configuration list for PBXNativeTarget "AKGPushAnimatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C310585C1EBF3B3400C18F16 /* Debug */,
-				C310585D1EBF3B3400C18F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

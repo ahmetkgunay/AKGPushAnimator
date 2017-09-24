@@ -1,5 +1,5 @@
 # AKGPushAnimator
-Easily Push and Pop viewcontroller like Instagram App with Interaction written in pure Swift 3
+Easily Push and Pop viewcontroller like Instagram App with Interaction written in pure Swift 4
 
 ![Anim](https://github.com/ahmetkgunay/AKGPushAnimator/blob/master/AKGPushAnimator.gif)
 
@@ -126,7 +126,7 @@ There are three ways to use AKGPushAnimator in your project:
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'AKGPushAnimator', '~> 1.0.5'
+pod 'AKGPushAnimator', '~> 1.0.6'
 ```
 
 ### Installation with Carthage
@@ -137,7 +137,7 @@ To install with carthage, follow the instruction on [Carthage](https://github.co
 
 #### Cartfile
 ```
-github "ahmetkgunay/AKGPushAnimator" ~> 1.0.5
+github "ahmetkgunay/AKGPushAnimator" ~> 1.0.6
 ```
 
 ## Author
