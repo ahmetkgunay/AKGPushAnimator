@@ -5,6 +5,12 @@
 </a>  <a href="https://github.com/ahmetkgunay/NetworkLayer/blob/master/LICENSE">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
 </a>
+<a href="https://github.com/Carthage/Carthage">
+<img src="https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat" alt="Carthage" />
+</a>
+<a href="https://twitter.com/ahmtgny">
+<img src="https://img.shields.io/badge/contact-@ahmtgny-blue.svg?style=flat" alt="Twitter: @ahmtgny" />
+</a>
 </p>
 
 Easily Push and Pop viewcontroller like Instagram App with Interaction written in pure Swift 4
