@@ -1,4 +1,9 @@
 # AKGPushAnimator
+<a href="https://swift.org">
+<img src="http://img.shields.io/badge/Swift-4.0-brightgreen.svg" alt="Language">
+</a>  <a href="https://github.com/ahmetkgunay/AKGPushAnimator/blob/master/LICENSE">
+<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
+</a>
 Easily Push and Pop viewcontroller like Instagram App with Interaction written in pure Swift 4
 
 ![Anim](https://github.com/ahmetkgunay/AKGPushAnimator/blob/master/AKGPushAnimator.gif)
